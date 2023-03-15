@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.profileDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 0px 120px;
+    position: relative;
+    background-color: #111111;
+    height: 100vh;
+    box-sizing: border-box;
+    /*padding-bottom: 15rem;*/
+    /*border-top: 2px solid #fff;*/
+}
+
+.fotoImg{
+    position: relative;
+    top: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0 10px 50px #0b2fce9a;
+    /*box-shadow: 0 10px 50px rgb(235, 137, 25);*/
+    width: 350px;
+    height: auto;
+    border: 5px solid #949494;
+    
+    /*margin-right: 4rem;*/
+}
+
+.infoContainer{
+    position: relative;
+    top: 0;
+    bottom: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textInfo{
+    /*position: relative;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    /*top: 8.5rem;*/
+    /*margin-left: 2rem;*/
+}
+
+.textInfo .saludo {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: relative;
+    top: 25px;
+    animation: glitch 1s linear 2;
+}
+
+/*.saludo:before,
+.saludo:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+@keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  .saludo:before{
+    animation: glitchTop 1s linear 2;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg); 
+    }
+  }
+  
+  .saludo:after{
+    animation: glitchBotom 1.5s linear 2;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+*/
+.textInfo .parrafo2 {
+    color: rgb(235, 137, 25);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
+
+.textInfo .parrafo3{
+  position: relative;
+  bottom: 10px;
+  width: 500px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+.parrafo3 .stackTecnologico{
+  font-style: italic;
+  color: #949494;
+  font-weight: bold;
+}
+
+.nameText{
+    color: rgb(235, 137, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.emojiIcon{
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.stackIcons{
+    width: 48px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.stackIcons:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.stackIcons:nth-child(4):hover{
+  animation: reactRotation 5s linear infinite;
+}
+@keyframes reactRotation{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
+
+
+
+@media (max-width : 600px){
+    .profileDiv{
+        height: 100vh;
+    }
+    .fotoImg{
+        margin:25px auto;
+        width: 230px;
+    }
+    .infoContainer{
+        margin: 0 10px;
+        padding-top: 40px;
+        font-size: 0.9rem;
+    }
+    .iconsContainer{
+        margin: 10px auto;
+    }
+}
