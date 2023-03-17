@@ -8,13 +8,13 @@ import randomMachineAppFoto from "./assets/proyects-foto/random-machine-app-foto
 
 export function Proyects() {
 
-    const proyectsImg = [[searchAppFoto,"https://search-app-mc.netlify.app"],[pomodoroAppFoto,"https://pomodoro-clock-mc.netlify.app"],[javascriptCalculatorAppFoto,'https://javascript-calculator-mc.netlify.app'],[drumMachineAppFoto,"https://drum-machine-mc.netlify.app"],[markdownAppFoto,"https://markdown-mc.netlify.app"],[randomMachineAppFoto,"https://maquina-frases-aleatorias.netlify.app"]];
+    const proyectsImg = [[searchAppFoto,"https://search-app-mc.netlify.app","SearchApp"],[pomodoroAppFoto,"https://pomodoro-clock-mc.netlify.app","Pomodoro Clock"],[javascriptCalculatorAppFoto,'https://javascript-calculator-mc.netlify.app',"Calculadora"],[drumMachineAppFoto,"https://drum-machine-mc.netlify.app","Batería Electrónica"],[markdownAppFoto,"https://markdown-mc.netlify.app","Markdown"],[randomMachineAppFoto,"https://maquina-frases-aleatorias.netlify.app","Maquina de Frases"]];
 
     return (
         <div className={styles.proyectsContainer}>
             <h1 className={styles.tituloPrincipal}>Proyectos Recientes <span>🖥️</span></h1>
             <ul className={styles.grid}>
-                {proyectsImg.map( (img,id) => <li key={id}><a href={img[1]} target="_blank" rel="noreferrer"><img src={img[0]} className={styles.imagenesProyects} alt="foto de proyecto"/></a></li> )}
+                {proyectsImg.map( (img,id) => <li key={id} className={styles.proyectTarget}><a href={img[1]} target="_blank" rel="noreferrer"><img src={img[0]} className={styles.imagenesProyects} alt="foto de proyecto"/></a><p className={styles.titleDescription}>{img[2]}</p><p className={styles.appDescription}>Aplicacion Web que permite buscar diversos tipos de contenidos: Gifs , Peliculas , entre otros...</p></li> )}
             </ul>
         </div>
     );

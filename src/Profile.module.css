@@ -26,9 +26,28 @@
     width: 350px;
     height: auto;
     border: 5px solid #949494;
-    
     /*margin-right: 4rem;*/
 }
+/*.fotoImgContainer::after{
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  color: #FFF;
+  box-shadow: 0 10px 50px #0b2fce9a;
+  animation: rotacion 5s linear infinite;
+}
+@keyframes rotacion{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+*/
 
 .infoContainer{
     position: relative;

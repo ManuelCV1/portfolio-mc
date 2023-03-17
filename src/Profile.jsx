@@ -10,7 +10,7 @@ import style from "./Profile.module.css";
 export function Profile() {
   return (
     <div className={style.profileDiv}>
-      <img className={style.fotoImg} src={fotoPerfil} alt="Foto de Perfil" />
+      <div className={style.fotoImgContainer}><img className={style.fotoImg} src={fotoPerfil} alt="Foto de Perfil" /></div>
 
       <div className={style.infoContainer}>
         <div className={style.textInfo}>
