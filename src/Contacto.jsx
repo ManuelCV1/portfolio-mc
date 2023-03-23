@@ -10,7 +10,7 @@ export function Contacto() {
             <div className={style.socialIconsContainer}>
             <a href="https://wa.me/584242816455" target="_blank" rel="noreferrer"><img className={style.socialIcon} src={whatsappIcon} alt="+58-424-2816455" title="+58-424-2816455"/></a>
             <a href="https://github.com/ManuelCV1" target="_blank" rel="noreferrer"><img className={style.socialIcon} src={GithubIcon} alt="https://github.com/ManuelCV1" title="https://github.com/ManuelCV1"/></a>
-            <a href="mailto:manuelcabrera.cv@gmail.com"><img src={Correo} alt="manuelcabrera.cv@gmail.com" title="manuelcabrera.cv@gmail.com"/></a>
+            <a href="mailto:manuelcabrera.cv@gmail.com"><img src={Correo} className={style.socialIcon}alt="manuelcabrera.cv@gmail.com" title="manuelcabrera.cv@gmail.com"/></a>
             </div>
         </div>
     );
