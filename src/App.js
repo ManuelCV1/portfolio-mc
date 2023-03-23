@@ -2,6 +2,8 @@ import "./App.css";
 import { Navbar } from "./Navbar";
 import { Profile } from "./Profile";
 import { Proyects } from "./Proyects";
+import { proyectsInfo } from "./consts/proyectsInfo";
+import { Contacto } from "./Contacto";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       </header>
       <main>
         <Profile />
-        <Proyects />
+        <Proyects proyectsInfo={proyectsInfo} />
+        <Contacto />
       </main>
     </div>
   );

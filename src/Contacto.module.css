@@ -1,0 +1,28 @@
+.contactContainer{
+    height: 92vh;
+}
+
+
+
+.mainTitle{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    font-style: italic;
+    position: relative;
+    top: 3rem;
+}
+
+.socialIconsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 180px auto;
+    gap: 0 5rem;
+}
+
+.socialIcon{
+    width: 100px;
+    height: auto;
+}

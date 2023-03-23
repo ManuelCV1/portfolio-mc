@@ -4,9 +4,9 @@ export function Navbar() {
   return (
     <div className={style.navbarContainer}>
     <nav className={style.navbar}>
-      <span  className={style.anchor}>Info</span>
-      <span  className={style.anchor}>Proyectos</span>
-      <span  className={style.anchor}>Contacto</span>
+      <a  href="#ProfileInfo" className={style.anchor}>Info</a>
+      <a  href="#Proyects" className={style.anchor}>Proyectos</a>
+      <a  href="#Contact" className={style.anchor}>Contacto</a>
     </nav>
     </div>
   );
