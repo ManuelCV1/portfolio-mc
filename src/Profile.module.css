@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
+
 .profileDiv{
     display: flex;
     justify-content: center;
@@ -10,9 +11,14 @@
     flex-wrap: wrap;
     gap: 0px 120px;
     position: relative;
-    background-color: #111111;
     height: 100vh;
     box-sizing: border-box;
+    background-color: #111;
+    background-image: url("./assets/background-foto/background-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     /*padding-bottom: 15rem;*/
     /*border-top: 2px solid #fff;*/
 }

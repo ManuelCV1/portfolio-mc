@@ -1,12 +1,13 @@
 
 
 .proyectsContainer {
-  background-color: #111111; /*#e6e6e6;*/
+  /*background-color: #111111; /*#e6e6e6;*/
   /*background: linear-gradient(71deg, #080509, #1a171c, #080509);*/
   color: #aaaaaa; /*#202020*/
   color: #0b2fce36;
 }
 .tituloPrincipal {
+  background-color: #111;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 300;
   font-size: 3rem;
@@ -26,6 +27,14 @@ h1 span{
 }
 
 .grid {
+  background-color: #111;
+  background-image: url("./assets/background-foto/background-proyects-2-modif-2.jpg");    
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 0px;
+
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, 500px);

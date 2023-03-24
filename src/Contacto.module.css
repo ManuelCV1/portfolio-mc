@@ -1,25 +1,35 @@
 .contactContainer{
-    height: 92vh;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 
 
 .mainTitle{
+    background-color: #111;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
     font-size: 3rem;
     font-style: italic;
     position: relative;
-    top: 3rem;
+    margin: 0;
+    padding:0;
+    height: 25vh;
 }
 
 .socialIconsContainer{
+    background-color: #111;
+    background-image: url("./assets/background-foto/background-contact-1.jpg");    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 180px auto;
     gap: 0 5rem;
+    height: 75vh;
 }
 
 .socialIcon{
