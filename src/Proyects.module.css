@@ -1,11 +1,7 @@
 
 
-.proyectsContainer {
-  /*background-color: #111111; /*#e6e6e6;*/
-  /*background: linear-gradient(71deg, #080509, #1a171c, #080509);*/
-  color: #aaaaaa; /*#202020*/
-  color: #0b2fce36;
-}
+
+
 .tituloPrincipal {
   background-color: #111;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -33,7 +29,7 @@ h1 span{
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  padding: 100px 0px;
+  padding: 100px 0 250px 0;
 
   list-style: none;
   display: grid;

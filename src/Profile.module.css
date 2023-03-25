@@ -30,6 +30,7 @@
 }
 
 .fotoImg{
+    background-color: #111;
     position: relative;
     top: 1.5rem;
     border-radius: 50%;

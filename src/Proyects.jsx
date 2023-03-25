@@ -9,7 +9,6 @@ export function Proyects({proyectsInfo}) {
             <ul className={styles.grid}>
                 {proyectsInfo.map( (pad,id) => <li key={id} className={styles.proyectTarget}><a href={pad.urlLink} target="_blank" rel="noreferrer"><img src={pad.Img} className={styles.imagenesProyects} alt="foto de proyecto"/></a><p className={styles.titleDescription}>{pad.proyectName}</p><p className={styles.appDescription}>{pad.proyectDescription}</p></li> )}
             </ul>
-            <br />
         </div>
     );
 }
