@@ -30,7 +30,7 @@
 }
 
 .fotoImg{
-    z-index: 2;
+    z-index: 1;
     background-color: #111;
     position: absolute;
     top: 2.16rem;
