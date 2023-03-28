@@ -30,27 +30,31 @@
 }
 
 .fotoImg{
+    z-index: 2;
     background-color: #111;
-    position: relative;
-    top: 1.5rem;
+    position: absolute;
+    top: 2.16rem;
+    left: 5px;
     border-radius: 50%;
     /*box-shadow: 0 10px 50px #0b2fce9a;*/
     /*box-shadow: 0 10px 50px rgb(235, 137, 25);*/
     width: 350px;
     height: auto;
-    border: 5px solid #949494;
+    /*border: 5px solid #949494;*/
     /*margin-right: 4rem;*/
 }
 
 
 .shadowImg{
-  position: absolute;
-  top: 2rem;
-  left: 5.5px;
+  display: inline-block;
+  position: relative;
+  top: 1.83rem;
   width: 350px;
   height: 350px;
   border-radius: 50%;
   color: #FFF;
+  background-color: #949494;
+  border: 5px solid #949494;
   box-shadow: 0 10px 60px #0b2fce9a;
   animation: rotacion 2s linear infinite;
 }
