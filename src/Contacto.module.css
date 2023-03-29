@@ -41,9 +41,15 @@
 }
 
 @media (max-width : 550px){
+    .mainTitle{
+        height: auto;
+        top: 100px;
+    }
     .socialIconsContainer{
         background-image: none;
         gap: 0 2rem;
+        height: auto;
+        margin-top: 27vh;
     }
 }
 
