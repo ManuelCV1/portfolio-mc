@@ -164,7 +164,11 @@
 
 @media (max-width : 550px){
   .profileDiv{
+    height: 100vh;
     background-image: none;
+  }
+  .fotoImgContainer{
+    margin-top: 10vh ;
   }
   .fotoImg{
     width: 250px;
@@ -175,7 +179,10 @@
     animation: none;
   }
   .infoContainer{
-    margin: 0 1rem;
+    position: relative;
+    top: 1.5rem;
+    left: .3rem;
+    margin: 0 10vw;
   }
   .textInfo .saludo{
     top: 19px;
