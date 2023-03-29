@@ -166,7 +166,7 @@
 
 @media (max-width : 550px){
   .profileDiv{
-    background-attachment: scroll;
+    background-image: none;
   }
   .fotoImg{
     width: 300px;
