@@ -101,6 +101,7 @@ h1 span{
 
 @media (max-width : 550px){
   .tituloPrincipal{
+    font-size: 2.5rem;
     padding:100px 0 0px 0;
   }
   .grid{

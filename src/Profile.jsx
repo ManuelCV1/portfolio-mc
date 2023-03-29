@@ -17,7 +17,7 @@ export function Profile() {
         <div className={style.textInfo}>
           <h1 className={style.saludo} title="Manuel Cabrera">Manuel Cabrera</h1>
           <p className={style.parrafo2}>Desarrollador Web Frontend <span role="img" aria-label="laptop" className={style.emojiIcon}>💻</span> </p>
-          <p className={style.parrafo3}>{/* Soy un desarrollador freelance en constante aprendizaje y mejoramiento de habilidades de desarrollo y diseño de aplicaciones web. */}Manejo un stack de tecnologías como <span className={style.stackTecnologico}>html, css, javascript, react, redux, boostrap,</span> entre otras y ocasionalmente realizo trabajos de edición</p>
+          <p className={style.parrafo3}>{/* Soy un desarrollador freelance en constante aprendizaje y mejoramiento de habilidades de desarrollo y diseño de aplicaciones web. */}Manejo un stack de tecnologías como <span className={style.stackTecnologico}>html, css, javascript, react, redux, boostrap,</span> entre otras <span className={style.extraResponsiveText}>y ocasionalmente realizo trabajos de edición</span></p>
         </div>
 
         <div className={style.iconsContainer}>

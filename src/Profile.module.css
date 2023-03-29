@@ -122,9 +122,7 @@
     font-style: normal;
 }
 
-.iconsContainer{
-  display: flex;
-}
+
 
 .stackIcons{
     width: 48px;
@@ -169,16 +167,35 @@
     background-image: none;
   }
   .fotoImg{
-    width: 300px;
+    width: 250px;
   }
   .shadowImg{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     animation: none;
   }
+  .infoContainer{
+    margin: 0 1rem;
+  }
+  .textInfo .saludo{
+    top: 19px;
+    font-size: 1.5rem;
+  }
+  .textInfo .parrafo2{
+    font-size: 1rem;
+  }
   .textInfo .parrafo3{
+    font-size: 13px;
     margin: auto;
     width: auto;
+  }
+  .textInfo .extraResponsiveText{
+    visibility: hidden;
+  }
+
+  .stackIcons{
+    bottom: 8px;
+    width: 30px;
   }
 
 }
