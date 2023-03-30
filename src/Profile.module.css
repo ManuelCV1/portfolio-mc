@@ -193,7 +193,6 @@
   }
   .textInfo .parrafo3{
     font-size: 1rem;
-    text-align: justify;
     margin: auto;
     width: auto;
   }
@@ -206,4 +205,10 @@
     width: 30px;
   }
 
+}
+
+@media (max-width : 550px){
+  .infoContainer{
+    left: .8rem;
+  }
 }
