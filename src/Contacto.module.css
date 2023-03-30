@@ -37,9 +37,10 @@
 }
 
 .socialIcon{
-    width: 100px;
+    width: 96px;
     height: auto;
 }
+
 
 @media (max-width : 550px){
     .mainTitle{

@@ -1,7 +1,7 @@
 import style from "./Contacto.module.css"
-import whatsappIcon from "./assets/icons/whatsapp-icon.png"
-import GithubIcon from "./assets/icons/Github-Icon.png"
-import Correo from "./assets/icons/icons8-hombre-con-correo-100.png"
+import whatsappIcon from "./assets/icons/icons8-whatsapp-96.png"
+import GithubIcon from "./assets/icons/icons8-repositorio-96.png"
+import Correo from "./assets/icons/icons8-correo-electrónico-96.png"
 
 export function Contacto() {
     return (
