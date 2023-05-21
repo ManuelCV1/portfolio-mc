@@ -1,214 +1,206 @@
-
-.profileDiv{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    gap: 0px 120px;
-    position: relative;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #111;
-    background-image: url("./assets/background-foto/background-2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    /*padding-bottom: 15rem;*/
-    /*border-top: 2px solid #fff;*/
+.profileDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px 120px;
+  position: relative;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #111;
+  background-image: url("./assets/background-foto/background-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  /*padding-bottom: 15rem;*/
+  /*border-top: 2px solid #fff;*/
 }
 
-.fotoImgContainer{
+.fotoImgContainer {
   width: auto;
   height: auto;
   position: relative;
 }
 
-.fotoImg{
-    z-index: 1;
-    background-color: #111;
-    position: absolute;
-    top: 2.16rem;
-    left: 5px;
-    border-radius: 50%;
-    /*box-shadow: 0 10px 50px #0b2fce9a;*/
-    /*box-shadow: 0 10px 50px rgb(235, 137, 25);*/
-    width: 350px;
-    height: auto;
-    /*border: 5px solid #949494;*/
-    /*margin-right: 4rem;*/
+.fotoImg {
+  z-index: 1;
+  background-color: #111;
+  position: absolute;
+  top: 2.16rem;
+  left: 5px;
+  border-radius: 50%;
+  /*box-shadow: 0 10px 50px #0b2fce9a;*/
+  /*box-shadow: 0 10px 50px rgb(235, 137, 25);*/
+  width: 350px;
+  height: auto;
+  /*border: 5px solid #949494;*/
+  /*margin-right: 4rem;*/
 }
 
-
-.shadowImg{
+.shadowImg {
   display: inline-block;
   position: relative;
   top: 1.83rem;
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  color: #FFF;
+  color: #fff;
   background-color: #949494;
   border: 5px solid #949494;
-  box-shadow: 0 10px 60px #0b2fce9a;
+  box-shadow: 0 10px 60px rgba(0, 255, 255, 0.3);
   animation: rotacion 2s linear infinite;
 }
-@keyframes rotacion{
-  0%{
+@keyframes rotacion {
+  0% {
     transform: rotate(0deg);
   }
 
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
 
-
-.infoContainer{
-    position: relative;
-    top: 0;
-    bottom: 55px;
-    display: flex;
-    flex-direction: column;
+.infoContainer {
+  position: relative;
+  top: 0;
+  bottom: 55px;
+  display: flex;
+  flex-direction: column;
 }
 
-.textInfo{
-    /*position: relative;*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
-    /*top: 8.5rem;*/
-    /*margin-left: 2rem;*/
+.textInfo {
+  /*position: relative;*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  /*top: 8.5rem;*/
+  /*margin-left: 2rem;*/
 }
 
 .textInfo .saludo {
-    font-size: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    position: relative;
-    top: 25px;
-    animation: glitch 1s linear 2;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  position: relative;
+  top: 25px;
+  animation: glitch 1s linear 2;
 }
 
 .textInfo .parrafo2 {
-    color: rgb(235, 137, 25);
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-
+  color: rgb(235, 137, 25);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
 
-.textInfo .parrafo3{
+.textInfo .parrafo3 {
   position: relative;
   bottom: 10px;
   width: 500px;
   font-weight: 300;
-  color: #FFF;
+  color: #fff;
 }
 
-.parrafo3 .stackTecnologico{
+.parrafo3 .stackTecnologico {
   font-style: italic;
   color: #949494;
   font-weight: bold;
 }
 
-.nameText{
-    color: rgb(235, 137, 25);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.nameText {
+  color: rgb(235, 137, 25);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.emojiIcon{
-    font-size: 1.5rem;
-    font-style: normal;
+.emojiIcon {
+  font-size: 1.5rem;
+  font-style: normal;
 }
 
-
-
-.stackIcons{
-    width: 48px;
-    height: auto;
-    position: relative;
-    cursor: pointer;
+.stackIcons {
+  width: 48px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
 }
 
-.stackIcons:hover{
+.stackIcons:hover {
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.stackIcons:nth-child(4):hover{
+.stackIcons:nth-child(4):hover {
   animation: reactRotation 5s linear infinite;
 }
-@keyframes reactRotation{
-  0%{
+@keyframes reactRotation {
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
-
 }
 
-@media (max-width : 1030px){
-  .profileDiv{
+@media (max-width: 1030px) {
+  .profileDiv {
     flex-direction: column;
     align-items: center;
     height: auto;
     gap: 40px;
   }
-  .fotoImgContainer{
+  .fotoImgContainer {
     margin-top: 15vh;
   }
-
 }
 
-@media (max-width : 550px){
-  .profileDiv{
+@media (max-width: 550px) {
+  .profileDiv {
     height: 100vh;
+    background-color: #222;
     background-image: none;
   }
-  .fotoImgContainer{
-    margin-top: 8vh ;
+  .fotoImgContainer {
+    margin-top: 8vh;
   }
-  .fotoImg{
+  .fotoImg {
     width: 250px;
   }
-  .shadowImg{
+  .shadowImg {
     width: 250px;
     height: 250px;
     animation: none;
   }
-  .infoContainer{
+  .infoContainer {
     position: relative;
     top: 1.5rem;
-    left: .3rem;
+    left: 0.3rem;
     margin: 0 10vw;
   }
-  .textInfo .saludo{
+  .textInfo .saludo {
     top: 19px;
     font-size: 1.5rem;
   }
-  .textInfo .parrafo2{
+  .textInfo .parrafo2 {
     font-size: 1rem;
   }
-  .textInfo .parrafo3{
+  .textInfo .parrafo3 {
     font-size: 1rem;
     margin: auto;
     width: auto;
   }
-  .textInfo .extraResponsiveText{
+  .textInfo .extraResponsiveText {
     visibility: hidden;
   }
 
-  .stackIcons{
+  .stackIcons {
     bottom: 8px;
     width: 30px;
   }
-
 }
 
-@media (max-width : 550px){
-  .infoContainer{
-    left: .8rem;
+@media (max-width: 550px) {
+  .infoContainer {
+    left: 0.8rem;
   }
 }

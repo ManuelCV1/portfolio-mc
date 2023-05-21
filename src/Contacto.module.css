@@ -1,58 +1,62 @@
-.contactContainer{
-    margin: 0;
-    padding: 0;
-    height: 92vh;
+.contactContainer {
+  margin: 0;
+  padding: 0;
+  height: 92vh;
 }
-
-
 
 .mainTitle {
-    background-color: #111;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
-    font-size: 3rem;
-    font-style: italic;
-    position: relative;
-    top: 50px;
-    margin: 0;
-    padding:0;
-    height: 20vh;
+  background-color: #111;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  font-style: italic;
+  position: relative;
+  top: 50px;
+  margin: 0;
+  padding: 0;
+  height: 20vh;
 }
 
-.socialIconsContainer{
-    background-color: #111;
-    background-image: url("./assets/background-foto/background-contact-1.jpg");    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    gap: 0 5rem;
-    height: 72vh;
+.socialIconsContainer {
+  background-color: #111;
+  background-image: url("./assets/background-foto/background-contact-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 0 5rem;
+  height: 72vh;
 }
 
-.socialIcon{
-    width: 96px;
+.socialIcon {
+  position: relative;
+  width: 96px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 550px) {
+  .mainTitle {
+    background-color: #222;
+    font-size: 2.5rem;
     height: auto;
+    top: 28vh;
+  }
+  .socialIconsContainer {
+    background-image: none;
+    background-color: #222;
+    gap: 0 2rem;
+    height: auto;
+    top: 35vh;
+  }
 }
-
-
-@media (max-width : 550px){
-    .mainTitle{
-        font-size: 2.5rem;
-        height: auto;
-        top: 28vh;
-    }
-    .socialIconsContainer{
-        background-image: none;
-        gap: 0 2rem;
-        height: auto;
-        top: 35vh;
-    }
-}
-

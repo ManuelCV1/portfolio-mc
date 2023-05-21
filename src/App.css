@@ -1,7 +1,6 @@
+body {
+  background-color: #111;
 
-body{
-    background-color: #111;
-    
   /*--c: #191b22;
   --_s: calc(2*var(--s)) calc(2*var(--s));
   --_g: 35.36% 35.36% at;
@@ -14,5 +13,11 @@ body{
     repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
     radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
   background-attachment: fixed;*/
-    color:white;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  body {
+    background-color: #222;
+  }
 }
