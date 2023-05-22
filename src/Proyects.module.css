@@ -15,7 +15,7 @@
 }
 
 .grid {
-  background-color: #111;
+  background-color: #070508;
   background-image: url("./assets/background-foto/background-proyects-2-modif-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +32,7 @@
 }
 
 .proyectTarget {
-  background: #111111; /*#949494;*/
+  background: #070508; /*#949494;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,6 +100,7 @@
     padding: 50px 0 50px 0;
   }
   .proyectTarget {
+    background-color: #222;
     width: 80vw;
   }
   .imagenesProyects {
