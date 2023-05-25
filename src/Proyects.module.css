@@ -17,9 +17,10 @@
 .grid {
   background-color: #070508;
   background-image: url("./assets/background-foto/background-proyects-2-modif-2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  /*background-size: contain;
+  background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-attachment: fixed;*/
   background-size: cover;
   padding: 100px 0 250px 0;
 
