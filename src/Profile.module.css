@@ -195,7 +195,7 @@
   }
 
   .stackIcons {
-    bottom: 8px;
+    bottom: 2rem;
     width: 30px;
   }
 }
@@ -203,5 +203,29 @@
 @media (max-width: 550px) {
   .infoContainer {
     left: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .stackIcons {
+    bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .stackIcons {
+    bottom: 4.2rem;
+  }
+}
+
+@media (max-height: 580px) {
+  .fotoImgContainer {
+    margin-top: 35vh;
+  }
+}
+
+@media screen and (max-width: 330px), screen and (max-height: 580px) {
+  .stackIcons {
+    bottom: 4.5rem;
   }
 }

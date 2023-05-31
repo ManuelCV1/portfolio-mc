@@ -1,10 +1,13 @@
+import { useSelector } from "react-redux";
 import styles from "./Proyects.module.css";
+import { mainTitle } from "./consts/proyectsInfo";
 
 export function Proyects({ proyectsInfo }) {
+  const state = useSelector((state) => state);
   return (
     <div className={styles.proyectsContainer} id="Proyects">
       <h1 className={styles.tituloPrincipal}>
-        Proyectos Recientes{" "}
+        {mainTitle[state.language].title}{" "}
         <span className={styles.emojiTitle} role="img" aria-label="desktop">
           🖥️
         </span>
@@ -20,7 +23,9 @@ export function Proyects({ proyectsInfo }) {
               />
             </a>
             <p className={styles.titleDescription}>{pad.proyectName}</p>
-            <p className={styles.appDescription}>{pad.proyectDescription}</p>
+            <p className={styles.appDescription}>
+              {pad.proyectDescription[state.language].description}
+            </p>
           </li>
         ))}
       </ul>
