@@ -20,7 +20,7 @@
 
 .socialIconsContainer {
   background-color: #111;
-  background-image: url("./assets/background-foto/background-contact-1.jpg");
+  background-image: url("../assets/background-foto/background-contact-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   /*background-attachment: fixed;*/

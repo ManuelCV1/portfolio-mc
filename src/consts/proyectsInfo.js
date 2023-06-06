@@ -42,7 +42,7 @@ export const proyectsInfo = [
       },
     ],
     Img: pomodoroAppFoto,
-    urlLink: "https://pomodoro-clock-mc.netlify.app",
+    urlLink: "https://pomodoro-clock-v2-mc.netlify.app/",
   },
   {
     proyectName: "Calculator",

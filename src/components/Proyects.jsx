@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import styles from "./Proyects.module.css";
-import { mainTitle } from "./consts/proyectsInfo";
+import { mainTitle } from "../consts/proyectsInfo";
 
 export function Proyects({ proyectsInfo }) {
   const state = useSelector((state) => state);

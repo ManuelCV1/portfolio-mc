@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import style from "./Navbar.module.css";
-import { language } from "./actions/language";
-import { navText } from "./consts/navbarText";
+import { language } from "../actions/language";
+import { navText } from "../consts/navbarText";
 
 export function Navbar() {
   const state = useSelector((state) => state);

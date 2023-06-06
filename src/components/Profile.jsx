@@ -1,12 +1,10 @@
-import fotoPerfil from "./assets/perfil-foto/fotoPerfil-bajoReloj-Editado.png";
-//import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-//import {faFire , faGlobe} from "@fortawesome/free-solid-svg-icons"
-import iconHtml5 from "./assets/icons/icons8-html-5-48.png";
-import iconCSS from "./assets/icons/icons8-css3-48.png";
-import iconJS from "./assets/icons/icons8-javascript-48.png";
-import reactIcon from "./assets/icons/react-icon.png";
+import fotoPerfil from "../assets/perfil-foto/fotoPerfil-bajoReloj-Editado.png";
+import iconHtml5 from "../assets/icons/icons8-html-5-48.png";
+import iconCSS from "../assets/icons/icons8-css3-48.png";
+import iconJS from "../assets/icons/icons8-javascript-48.png";
+import reactIcon from "../assets/icons/react-icon.png";
 import style from "./Profile.module.css";
-import { extraInfo, others, title, whatIDo } from "./consts/profileText";
+import { extraInfo, others, title, whatIDo } from "../consts/profileText";
 import { useSelector } from "react-redux";
 
 export function Profile() {

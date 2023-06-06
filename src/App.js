@@ -1,9 +1,9 @@
 import "./App.css";
-import { Navbar } from "./Navbar";
-import { Profile } from "./Profile";
-import { Proyects } from "./Proyects";
+import { Navbar } from "./components/Navbar";
+import { Profile } from "./components/Profile";
+import { Proyects } from "./components/Proyects";
 import { proyectsInfo } from "./consts/proyectsInfo";
-import { Contacto } from "./Contacto";
+import { Contacto } from "./components/Contacto";
 import { Provider } from "react-redux";
 import store from "./store";
 
